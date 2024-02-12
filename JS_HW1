@@ -1,0 +1,44 @@
+1. 'number' + 3 + 3 //  cтринг "приклеивает" числа ; результат 'number33' тип данных string
+
+2. null + 3  //      тип данных null сложение с числом  ; результат  3 тип данных число
+
+3. 5 && "qwerty" // Number , logical opearor AND , string; как true && true ; result   'qwerty'- last true
+
+4. +'40' + +'2' + "hillel"; // унарный плюс+ преобразует в число стринг '40', оператор сложения +,  унарный плюс+ преобразует в число стринг '2' результат сложения  число 42  сложение к стрингу 'hillel' ; результат '42hillel' тип данных стринг
+
+5. '10' - 5 === 6; // Вычитание  числа из строки и проверка на идентичность; результат false
+
+6. true + false   // 0+1 = 1 
+
+7. '4px' - 3  // NaN, because first operand is NaN
+
+8 . '4' - 3 // 1 ; '4' becomes a Number 4 -3 =1 
+
+9. '6' + 3 ** 0; 3**0 = 1 , string + number = 61 
+
+10. 12 / '6' // 2 
+
+11. '10' + (5 === 6); // (5===6)=false . String + false   = '10fals3'
+
+12. null == '' // null equals to null or undefined only.  false
+
+13. 3 ** (9 / 3); // 3**3 = 27 
+
+14. !!'false' == !!'true'  convertation from string "false" to boolean !!false 
+
+15. 0 || '0' && 1 ; // '0' && 1 = 1 , 0||1 =>1 
+
+16. (+null == false) < 1; // (+null == false) 0==0  => true < 1  =>  1<1  => false
+
+17. false && true || true // false && true => false || true => true 
+
+18. false && (false || true); // false && true => true 
+
+19. (+null == false) < 1 ** 5; // (+null == false) = true ; => true < 1 => false 
+
+
+
+
+
+
+
