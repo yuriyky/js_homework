@@ -1,57 +1,35 @@
-function DrawTriangle (lines , symbols ) 
+// Draw triangle use function with cycle For
+
+function DrawTriangleFor (lines , symbols ) 
 {
 
  let string = " " ; 
- 
 
+  for (let i = 0; i  < lines;  i++ ) 
 
-
-     while       ( lines)
-        {     
-            string += symbols
-
-    console.log (string) }
-
+{
+    string += symbols ;
+console.log (string)
 
 }
 
+}
 
+ DrawTriangleFor (  5 , 2 )
 
-DrawTriangle ( 5 , "m" )
+// Draw Triangle use f-n with cycle While 
 
+function DrawTriangleWhile ( lines, symbols ) {
 
+let j = 0 ;
+let smb = " "  ;
 
-function DrawTriangle (lines , symbols ) 
-{
+while( j <= lines)
 
- let string = " " ; 
- 
-
- var  flag = 0
- 
-
-     while    (lines )   
-     flag += 1
-    flag ++
-     
-     {
-        
-        
-        
-        if ( lines <= flag)
-               
-         break
-
-       { string += symbols
-
-        console.log (string) }
-        
-      
-      
-
-     }
-       
-         
-    }  
-    
-DrawTriangle ( 5, "m" )
+{ 
+smb += symbols
+console.log(smb)
+j++
+}
+}
+DrawTriangleWhile ( 5, "*" ) 
